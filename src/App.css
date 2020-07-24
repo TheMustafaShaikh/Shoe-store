@@ -1,38 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 .App {
-  text-align: center;
+    text-align: center;
+}
+
+body {
+    background-color: #f6f6f6;
+    font-family: 'Anton', sans-serif;
+}
+
+.Head-1 {
+    text-align: center;
+}
+
+.textbtn {
+    font-weight: bolder !important;
+}
+
+.linktag {
+    outline: none;
+    text-decoration: none;
+    color: white
+}
+
+.showDesc {
+    background-color: white;
+    height: 90vh;
+}
+
+.paddingL {
+    padding-left: 20px;
+}
+
+.Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+}
+
+.linkset {
+    outline: none !important;
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.cartDetails {
+    padding: 100px;
+}
+
+.showcartDetails {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+}
+
+.showcartDetails button {
+    background-color: red;
+    color: white;
+    font-family: "Anton";
+    border-color: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.textbtn:hover {
+    color: #FD3154;
+}
+
+.buttonT {
+    width: "200px" !important;
+    background-color: "black" !important;
+    color: "white" !important;
+}
+
+.buttonT:hover {
+    background-color: #282c34 !important;
+    color: white !important;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.cartClick {
+    outline: none;
+    color: black;
+    text-decoration: none;
+}
+
+.contact {
+    text-align: center;
 }
